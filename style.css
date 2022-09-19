@@ -16,12 +16,7 @@ header{
     padding: 5px;
 }
 
-.shapka{
-    margin: 0 auto;
-    max-width: 960px;
-}
-.main{
-    
+.shapka, .main{
     margin: 0 auto;
     max-width: 960px;
 }
