@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		
+		<title>Задание 2</title>
+        <link rel="stylesheet" href="style.css">
+		
+	</head>
+	<body>
+		<header>
+			<div class="shapka">
+				<img id="logo" src="logo.img" alt="логотип"/>
+				<h1>Здесь могла быть ваша реклама</h1>
+			</div>
+		</header>
+		<div class="main">
+        <nav>
+            <a href="#меню1">Гиперссылки</a>
+            <a href="#меню2">Таблица</a>
+            <a href="#меню3">Форма</a>
+        </nav>
+		<h2 id="меню1">Гиперссылки</h2>
+    	
+			<ol>
+				<li><a href="http://kubsu.ru/">Кубгу</a></li>
+				<li><a href="https://example.com/">https</a></li>
+				<li><a href="ftp://example.com/">без авторизации</a></li>
+				<li><a href="ftp://user:pasword@example.com/">c авторизацией</a></li>
+				<li><a href="https://ru.wikipedia.org/wiki/Кошка#Происхождение_и_история_одомашнивания">Происхождение и история одомашнивания</a></li>
+				<li><a href="#fragment">Фрагмент</a></li>
+				<li><a href="http://example.com?parametr1&parametr2">2 параметра</a></li>
+				<li>
+					<ul>
+						<li><a href="#menu" title="Наше меню">Меню</a></li>
+						<li><a href="#Акция" title="Скидки на любимые блюда">Акции</a></li>
+						<li><a href="#связь" title="Напишите свой вопрос сюда">Связь с нами</a></li>
+					</ul>
+				</li>
+				<li><a>без href</a></li>
+				<li><a href=""> с пустым href</a></li>
+				<li><a href="http://example.com/" rel="nofollow">запрещенная</a></li>
+				<!--noindex--><li><a href="https://example.com/">без индексации</a></li><!--noindex-->
+				<li><div><p>Какой-то текст <a href="http://example.com/">Ссылка</a> какой-то текст</p></div></li>
+				<li><a href="https://i.pinimg.com/originals/38/9a/01/389a01e78d98f7bdb4304b7980b69a22.jpg">
+					<img src="https://dachnoedelo.ru/images/wp-content/uploads/2017/11/Gazaniya-40.jpg" alt="цветок" style="width: 450px"></a></li>
+				<li>
+					<img src="picture.jpg" alt="прямоугольник" usemap="#pict">
+					<map id="pict" name="pict">
+						<area shape="rect" coords="37,55,377,205" href="https://i.pinimg.com/originals/7e/72/13/7e7213fb43ce463e0415a0e4ca50147c.jpg" alt="1">
+						<area shape="circle" coords="507,130,90" href="https://i10.fotocdn.net/s122/2f1633aa6eef5143/public_pin_l/2800362695.jpg" alt="2">
+					</map>
+				</li>
+				<li><a href="1.html">текущая</a></li>
+				<li><a href="about/1.html">страница в каталоге</a></li>
+				<li><a href="../1.html">на уровень выше</a></li>
+				<li><a href="../../2.html">на 2 уровня выше</a></li>
+				<li><a href="/">сокращенная</a></li>
+				<li><a href="/about">сокращенная на внутреннюю</a></li>
+			</ol>
+		
+		<br>
+		<h2 id="меню2">Таблица</h2>
+		
+		<table>
+			<tr>
+				<th>Колонка 1</th>
+				<th>Колонка 2</th>
+				<th>Колонка 3</th>
+			</tr>
+			<tr>
+				<td colspan="3">Ячейка 11 объединенная с 12 и 13</td>
+			</tr>
+			<tr>
+				<td>Ячейка 21</td>
+				<td>Ячейка 22</td>
+				<td>Ячейка 23</td>
+			</tr>
+			<tr>
+				<td>Ячейка 31</td>
+				<td>Ячейка 32</td>
+				<td>Ячейка 33</td>
+			</tr>
+			<tr>
+				<td>Ячейка 41</td>
+				<td>Ячейка 42</td>
+				<td>Ячейка 43</td>
+			</tr>
+			<tr>
+				<td>Ячейка 51</td>
+				<td>Ячейка 52</td>
+				<td>Ячейка 53</td>
+			</tr>
+		</table>
+		
+		<h2 id="меню3">Форма</h2>
+		<form id="form" action="/" method="POST">
+		<label>
+			Введите имя<br/>
+			<input name="field-name-1" value="Ваше ФИО"/>
+		</label><br/>
+		<label>
+			Введите e-mail адрес<br/>
+			<input name="field-email" value="Ваш e-mail" type="email"/>
+		</label><br/>
+		<label>
+			
+			Введите дату рождения<br/>
+			<input name="field-data" value="2022-09-01" type="date"/>
+		</label><br/>
+			
+		Выберете ваш пол:<br/>
+		<label><input type="radio" checked="checked" name="radio-group-1" value="Значение 1"/>
+			Женский </label>
+		<label><input type="radio" checked="checked" name="radio-group-1" value="Значение 2"/>
+			Мужской </label><br/>
+			
+		Количество конечностей:<br/>
+		<label><input type="radio" checked="checked" name="radio-group-2" value="Значение 1"/>
+			0 </label>
+		<label><input type="radio" checked="checked" name="radio-group-2" value="Значение 2"/>
+			1 </label>
+		<label><input type="radio" checked="checked" name="radio-group-2" value="Значение 3"/>
+			2 </label>
+		<label><input type="radio" checked="checked" name="radio-group-2" value="Значение 4"/>
+			3 </label>
+		<label><input type="radio" checked="checked" name="radio-group-2" value="Значение 4"/>
+			4 </label>
+
+		<label>Сверхспособности:<br/>
+		<select name="field-name-4[]" multiple="multiple">
+			<option value="Значение 1">Бессмертие</option>
+			<option value="Значение 2">Прохождение сквозь стены</option>
+			<option value="Значение 3">Левитация</option>
+		</select>
+		</label><br/>
+			
+		<label>Биография:<br/>
+			<textarea name="field-name-2">О себе</textarea>
+		</label><br/>
+			
+		Чекбокс:<br/>
+		<label><input type="checkbox" checked="checked" name="check-1"/>С контрактом ознакомлен(а)</label><br/>
+		<input type="submit" value="Отправить">	
+		</form>
+		</div>
+		<footer>
+			<div class="end">
+				<h3>(c) Илона Павленко 2022</h3>
+			</div>
+		</footer>
+	</body>
+</html> 
