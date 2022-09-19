@@ -17,7 +17,6 @@ header{
 }
 
 .shapka,.main{
-    display: flexbox;
     margin: 0 auto;
     max-width: 960px;
 }
