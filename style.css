@@ -48,7 +48,7 @@ tr:nth-child(odd){
 
 .end{
     background-color: rgb(194, 166, 216);
-    width: 100%;
+    max-width: 960px;
     height: 50px;
     padding: 5px;
     margin-top: 10px;
