@@ -46,10 +46,14 @@ tr:nth-child(odd){
     background-color: bisque;
 }
 
-.end{
+footer{
     background-color: rgb(194, 166, 216);
-    max-width: 960px;
+    width: 100%;
     height: 50px;
     padding: 5px;
     margin-top: 10px;
+}
+.end{
+    max-width: 960px;
+    margin:0 auto;
 }
