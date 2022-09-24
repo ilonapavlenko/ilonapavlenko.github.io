@@ -53,7 +53,7 @@ tr:nth-child(odd){
   
   .main,
   #nav1,
-  footer,.table,.form {
+  footer,.table,.forma {
     margin: 0 auto;
     width: 100%;
     padding: 10px;
@@ -78,7 +78,7 @@ tr:nth-child(odd){
     flex-wrap: wrap;
   }
   
-  .form {
+  .forma {
     order: -1;
   }
   
@@ -104,7 +104,7 @@ tr:nth-child(odd){
     }
   
     .main,
-    #nav1,.table,.form{
+    #nav1,.table,.forma{
       max-width: 960px;
     }
   
@@ -118,7 +118,7 @@ tr:nth-child(odd){
       margin-left: 10%;
       margin-right: 10%;
     }
-    .form {
+    .forma {
       order: 0;
     }
   }
