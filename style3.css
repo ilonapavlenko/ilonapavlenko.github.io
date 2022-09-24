@@ -82,7 +82,7 @@ tr:nth-child(odd){
     order: -1;
   }
   
-  .footer {
+  .end {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
