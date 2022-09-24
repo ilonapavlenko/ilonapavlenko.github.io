@@ -53,7 +53,7 @@ tr:nth-child(odd){
   
   .main,
   #nav1,
-  footer {
+  footer,.table,.form {
     margin: 0 auto;
     width: 100%;
     padding: 10px;
