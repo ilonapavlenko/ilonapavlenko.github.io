@@ -1,1 +1,130 @@
+html {
+    height: 100%;
+  }
+  
+  body,
+  footer {
+    margin: 0px;
+    width: 100%;
+    background-color: rgb(234, 202,221);
+  
+  }
+  
+  
+  table {
+    border-collapse: collapse;
+    border: 3px solid;
+    width: 500px;
+    text-align: center;
+  }
+  
+  td,
+  th {
+    border: 1px solid;
+    padding: 10px 15px;
+  }
+  
+  tr:nth-child(even){
+    background-color: darksalmon; 
+}
 
+tr:nth-child(odd){
+    background-color: bisque;
+}
+  header {
+    background-color: rgb(194,166,216);
+    padding: 10px;
+    height: 120px;
+    width: 100%;
+    margin: 0 auto;
+  
+  }
+  
+  #logo {
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+  }
+  
+  .shapka {
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .main,
+  #nav1,
+  footer {
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #nav1 {
+    margin-top: 10px;
+    font-size: 20px;
+    clear: both;
+  
+  }
+
+  #nav1 ul li {
+    list-style-type: none;
+  }
+  
+  .order {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .form {
+    order: -1;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  footer {
+  
+    width: 100%;
+    height: 50px;
+    background-color: rgb(194, 166, 216);
+    padding-top: 10px;
+    flex: 0;
+  
+  }
+  
+  
+  
+  @media screen and (min-device-width: 1300px) {
+    .shapka {
+      margin: 0 auto;
+      max-width: 960px;
+    }
+  
+    .main,
+    #nav1{
+      max-width: 960px;
+    }
+  
+    #nav1 ul {
+      text-align: center;
+      padding-left: 20px;
+    }
+  
+    #nav1 ul li {
+      display: inline-block;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    .form {
+      order: 0;
+    }
+    
+  }
