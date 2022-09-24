@@ -33,6 +33,17 @@ nav{
     clear:both;
     margin-top: 20px;
 }
+#nav1 ul{
+    
+    text-align: center;
+    padding-left: 10px;
+    padding-rigth: 10px;
+    
+}
+#nav1 ul li{
+display: inline-block;
+    margin-left:10%;
+    margin-right:10%;
 
 table,th,td{
     border: 1px solid;
