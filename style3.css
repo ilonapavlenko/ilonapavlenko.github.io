@@ -98,7 +98,7 @@ tr:nth-child(odd){
   
   
   @media screen and (min-device-width: 1000px) {
-    .shapka {
+    .shapka,.end {
       margin: 0 auto;
       max-width: 960px;
     }
