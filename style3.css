@@ -130,11 +130,11 @@ html {
       order: 2;
     }
     header,footer{
-      height: 80px;
+      height: 100px;
       width: 100%;
     }
     #img1{
       height: auto;
-      width: 20px;
+      width: 200px;
     }
   }
