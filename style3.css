@@ -29,7 +29,9 @@ html {
   table {
     border-collapse: collapse;
     border: 3px solid;
+    max-width: 100%;
     width: 500px;
+    height: auto;
     text-align: center;
   }
   
@@ -136,7 +138,6 @@ html {
       width: 100px;
       height: 100px;
       padding: 0 10px 0 0;
-      margin-left: -20px;
     }
     .forma {
       order: 2;
@@ -150,7 +151,7 @@ html {
       width: 200px;
     }
      #img2{
-      width: 200px;
+      width: 300px;
       height: 150px;
     }
   }
