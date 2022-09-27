@@ -124,7 +124,8 @@ html {
       float: left;
       width: 100px;
       height: 100px;
-      padding-right: 10px;
+      margin-right: 10px;
+      margin: 0 auto;
     }
     .forma {
       order: 2;
