@@ -15,6 +15,11 @@ html {
   
   }
 
+ #img{
+      height: auto;
+      max-width: 100%;
+   }
+
   table {
     border-collapse: collapse;
     border: 3px solid;
@@ -135,8 +140,8 @@ html {
       height: 120px;
       width: 100%;
     }
-    #img1{
-      height: auto;
+    #img{
+      height: 150px;
       width: 200px;
     }
   }
