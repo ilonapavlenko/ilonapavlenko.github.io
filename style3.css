@@ -1,4 +1,5 @@
 
+
 html {
     height: 100%;
   }
@@ -8,14 +9,7 @@ html {
     flex-wrap: wrap;
   }
 
-  body {
-    margin: 0px;
-    width: 100%;
-    background-color: rgb(206, 166, 216);
-  
-  }
-
- #img{
+  #img{
     max-width: 100%;
     width: 200px;
     height: auto;
@@ -26,9 +20,16 @@ html {
     height: auto;
   }
 
+  body {
+    margin: 0px;
+    width: 100%;
+    background-color: rgb(206, 166, 216);
+  
+  }
+
   table {
     border-collapse: collapse;
-    border: 3px solid;
+    border: 1px solid;
     max-width: 100%;
     width: 500px;
     height: auto;
@@ -63,6 +64,7 @@ html {
     width: 100px;
     height: 100px;
     padding: 0 1vw 0 1vw;
+    
   }
   
   
@@ -73,7 +75,9 @@ html {
     padding: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    
     margin-bottom: 10px;
+    
     background-color: rgb(183, 140, 196);
   }
   
@@ -105,7 +109,7 @@ html {
     order: 3;
   }
   
-  h2{
+   h2{
     text-align: center;
   }
   
@@ -123,6 +127,7 @@ html {
       max-width: 960px;
       margin-bottom: 10px;
       margin-top: 10px;
+      padding: 10px 0 10px 0;
     }
   
     #nav ul {
@@ -140,7 +145,7 @@ html {
       float: left;
       width: 100px;
       height: 100px;
-      padding: 0 10px 0 -10px;
+      padding: 0;
     }
     .forma {
       order: 2;
@@ -148,13 +153,15 @@ html {
     header,footer{
       height: 120px;
       width: 100%;
+     
     }
     #img{
       height: 150px;
       width: 200px;
     }
-     #img2{
-      width: 300px;
+    #img2{
+      width: 200px;
       height: 150px;
     }
   }
+
