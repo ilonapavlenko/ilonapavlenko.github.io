@@ -105,6 +105,9 @@ html {
     order: 3;
   }
   
+ h2{
+    text-align: center;
+  }
   
   @media screen and (min-device-width: 800px) {
     
@@ -137,7 +140,7 @@ html {
       float: left;
       width: 100px;
       height: 100px;
-      padding: 0 10px 0 0;
+      padding: 0 10px 0 -10px;
     }
     .forma {
       order: 2;
