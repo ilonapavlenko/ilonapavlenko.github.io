@@ -16,9 +16,15 @@ html {
   }
 
  #img{
-      height: auto;
-      max-width: 100%;
-   }
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+  }
+  #img2{
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+  }
 
   table {
     border-collapse: collapse;
@@ -54,8 +60,7 @@ html {
     float: left;
     width: 100px;
     height: 100px;
-    padding: 0 10px 0 0;
-    margin-left: -20px;
+    padding: 0 1vw 0 1vw;
   }
   
   
@@ -143,5 +148,9 @@ html {
     #img{
       height: 150px;
       width: 200px;
+    }
+     #img2{
+      width: 200px;
+      height: 150px;
     }
   }
