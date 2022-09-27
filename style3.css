@@ -146,6 +146,7 @@ html {
       width: 100px;
       height: 100px;
       padding: 0;
+      margin-left: -10px;
     }
     .forma {
       order: 2;
