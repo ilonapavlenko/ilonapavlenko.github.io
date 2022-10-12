@@ -1,7 +1,7 @@
-window.addEventListener("DOMContentLoaded", function (event) 
+window.addEventListener("DOMContentLoaded", function (event)
 {
     console.log("DOM fully loaded and parsed");
-    function calculate() 
+    function calculate()
     {
         var count = document.getElementById("count").value;
         var price = document.getElementById("price").value;
@@ -17,7 +17,6 @@ window.addEventListener("DOMContentLoaded", function (event)
         {
             res.innerHTML = price*count;
         }
-    
     }
     var b = document.getElementById("button1");
     b.addEventListener("click", calculate);
