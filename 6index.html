@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <script src="js6.js" defer></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <title>Задание 6</title>
+        <link rel="stylesheet" href="style6.css">
+    </head>
+
+    <body>
+        <div class="col wrapper">
+            <div class="col col-md-5 b-main d-flex justify-content-center mx-auto">
+        
+              <div class="calc">
+        
+                <form>
+                    <span>Введите количество товаров:</span>
+                    <br>
+                     <div class="count">
+                        <input name="count" id="count" type="text" placeholder="Количество товаров">
+                     </div>
+                     <select name="type">
+                        <option value="1">Нет дисконтной карты</option>
+                        <option value="2">Есть дисконтная карта</option>
+                        <option value="3">Подарочный сертификат</option>
+                    </select>
+                    <div id="card">
+                        <span>Какая у вас карта?</span>
+                        <label><input type="radio" name="radio" value="op1">Обычная</label>
+                        <label><input type="radio" name="radio" value="op2">Золотая</label>
+                        <label><input type="radio" name="radio" value="op3">Платиновая</label>
+                    </div>
+                    <div id="certif">
+                        <span>Тип сертификата?</span>
+                        <label><input type="checkbox" name="checkbox" value="ch1">День рождение</label>
+                        <label><input type="checkbox" name="checkbox" value="ch2">Постоянный клиент</label>
+                    </div>
+                </form>
+                
+                <span>Результат:</span>
+                <br>
+                <div id="result"></div>
+              </div>
+            </div>
+    </body>
+</html>
