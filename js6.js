@@ -4,7 +4,7 @@ function update(calc) {
     let radioDiv = document.getElementById("card");
     radioDiv.style.display = ((select.value === "1" || select.value === "3") ? "none" : "block");
     let checkDiv = document.getElementById("certif");
-    checkDiv.style.display = (select.value == "3" ? "block" : "none");
+    checkDiv.style.display = (select.value === "3" ? "block" : "none");
     let price = 0;
     let prices = getPrices();
     let index = parseInt(select.value) - 1;
@@ -39,7 +39,6 @@ function update(calc) {
       prodPrice.innerHTML = "Неккоректный ввод";
     }
     else {
-  
       prodPrice.innerHTML = calc * price + " рублей";
     }
     }
@@ -54,7 +53,6 @@ function update(calc) {
         ch1: 130,
         ch2: 180,
       }
-  
     };
   }
   window.addEventListener('DOMContentLoaded', function (event) {
