@@ -1,0 +1,82 @@
+body {
+  background: url(https://i.pinimg.com/originals/1a/8f/46/1a8f46e69e26250d4c6935bdf8a1317c.jpg);
+}
+
+.сontainer_gallery {
+  background-color: rgba(42, 65, 74, 0.836);
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slider {
+  position:relative;
+  padding: 10px 20px 0 20px ;
+  margin-top: 20px;
+}
+
+.slick-track {
+  display: flex;
+  align-items: flex-start;
+}
+
+
+
+.slider .slick-arrow {
+  position: absolute;
+  top: 35%;
+  font-size: 0;
+  width: 35px;
+  height: 35px;
+  border: 0px;
+}
+
+.slider .slick-arrow.slick-prev {
+  left: 0;
+  background: url("http://cdn.onlinewebfonts.com/svg/img_136769.png") 0 0 / 100% no-repeat;
+}
+
+.slider .slick-arrow.slick-next {
+  right: 0;
+  background: url("https://pic.onlinewebfonts.com/svg/img_414770.png") 0 0 / 100% no-repeat;
+}
+
+.slider .slick-dots {
+  display: flex;
+  justify-content: center;
+}
+
+.slider .slick-dots li {
+  list-style: none;
+  margin: 10px;
+
+}
+.slitem img {
+  width: 220px;
+  height: 200px;
+}
+.slider .slick-dots button {
+  font-size: 0;
+  height: 10px;
+  background-color: rgba(168, 188, 231, 0.562);
+  border-radius: 50%;
+}
+
+.slider .slick-dots li.slick-active button {
+  background-color: rgba(0, 0, 0, 0.951);
+}
+
+.slitem {
+  padding: 0px 15px;
+}
+
+@media screen and (min-device-width: 800px) 
+{
+  body{
+    margin-top: 15vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    margin-bottom: 15vw;
+  }
+}
