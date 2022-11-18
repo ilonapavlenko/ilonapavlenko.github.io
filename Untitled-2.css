@@ -1,0 +1,61 @@
+
+html,
+body {
+  background: url(https://catherineasquithgallery.com/uploads/posts/2021-03/1615820243_74-p-fon-nochnoe-nebo-96.jpg);
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(58, 89, 136, 0.596);
+  pointer-events: none;
+  opacity: 0;
+}
+
+#forma {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 2px solid;
+  padding: 1vw;
+  border-radius: 25px;
+}
+
+#form1 {
+  padding: 2vw;
+}
+
+#button {
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+#button1 {
+  width: 120px;
+  height: 60px;
+  border-radius: 25px;
+
+}
+
+#butt {
+  background-color: rgba(58, 89, 136, 0.815);
+  border: none;
+  padding: 15px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
