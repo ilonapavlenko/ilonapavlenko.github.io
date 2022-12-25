@@ -306,6 +306,16 @@ li {
     top: 0;
     left: 0;
 }
+.header-druplicon {
+    position: absolute;
+
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+
+    background: linear-gradient(300deg, rgba(0, 0, 0, 0.548));
+    transform: rotate(-1deg);
+}
 /* --- ФУНКЦИИ СЕРВИСА --- */
 
 .functions {
