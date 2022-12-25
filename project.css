@@ -306,3 +306,72 @@ li {
     top: 0;
     left: 0;
 }
+/* --- ФУНКЦИИ СЕРВИСА --- */
+
+.functions {
+    margin-top: 160px;
+    width: 1440px;
+}
+
+/* Описание */
+
+.functions-title {
+    margin: 0px 700px 18px 339px;
+    width: 750px;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 51px;
+    margin-bottom: 40px;
+    color: #050C33;
+    margin-left: 150px;
+}
+
+.functions-text {
+    width: 580px;
+    margin-left: 339px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #050C33;
+    opacity: 0.7;
+    margin-left: 150px;
+}
+
+/*  Список функций  */
+
+.functions-list {
+    margin-left: 150px;
+    margin-top: 63px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.f-icon {
+    align-self: center;
+    justify-self: center;
+    height: 200px;
+    position: relative;
+    width: 182px;
+    margin-right: 147px;
+    margin-bottom: 50px;
+}
+
+.f-icon p {
+    margin-top: 25px;
+    width: 182px;
+    font-size: 16px;
+    line-height: 22px;
+    opacity: 0.7;
+}
+
+.f-icon::before {
+    left: -30.22%;
+    right: 67.58%;
+    top: 8.76%;
+    bottom: 54.64%;
+    content: "";
+    height: 71px;
+    width: 114px;
+    background: url(../img/functions/icon-bg.svg) no-repeat;
+    position: absolute;
+}
