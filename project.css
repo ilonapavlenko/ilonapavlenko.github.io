@@ -8,6 +8,7 @@
 
 html {
     scroll-behavior: smooth;
+    
 }
 
 body {
@@ -70,7 +71,7 @@ li {
     z-index: 5;
 }
 
-/* анимации */
+/* анимации да*/
 
 #supp:after,
 #adm:after,
