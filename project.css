@@ -878,3 +878,64 @@ li {
     width: 468px;
     opacity: 0.5;
 }
+/* КОМАНДА */
+
+.team {
+    width: 100%;
+    margin-top: 260px;
+}
+
+.team-title {
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: center;
+    color: #050C33;
+}
+
+.team-list {
+    width: 1080px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.team-list-item {
+    width: 280px;
+    margin-top: 80px;
+}
+
+.team-photo {
+    margin-bottom: 30px;
+}
+
+.team-photo img {
+    width: 280px;
+    height: 280px;
+}
+
+
+/**/
+.team-employee-name {
+font-weight: bold;
+}
+.team-employee-position{
+    margin-top: 10px;
+}
+.nameproff{
+    font-size:30px;
+    font-weight: bold;
+}
+.proff-title{
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 55px;
+    width: 1200px;
+    margin-left:250px;
+    color: #050C33;
+}
+.proff-position{
+    margin-top: 10px;
+    width: 200px;
+}
