@@ -310,11 +310,11 @@ li {
 
 .functions {
     width: 100%;
-   
+    margin-top: 100px;
     height: 750px;
     max-width: 1460px;
     padding: 0 20px;
-    margin: 100px auto;
+    margin: 0 auto;
 }
 
 
@@ -379,4 +379,151 @@ li {
     width: 114px;
     background: url(../img/functions/icon-bg.svg) no-repeat;
     position: absolute;
+}
+/* --- ПОДДЕРЖКА ОТ ПРОЕКТА DRUPAL --- */
+
+.support {
+    margin-top: 160px;
+    color: #050C33;
+}
+
+/* Общая информация */
+
+.support-title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 51px;
+    width: 406px;
+    margin: 0px auto -140px;
+}
+
+/* Основные услуги */
+
+.support-list {
+    width: 1184px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.support-item {
+    z-index: 2;
+    position: relative;
+    overflow: hidden;
+    width: 292px;
+    height: 292px;
+    padding: 30px 20px 0px 28px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    top: 205px;
+}
+
+/* Информация с карточек услуг */
+
+.support-item .support-item-number {
+    font-size: 12px;
+    opacity: 0.5;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.support-item .support-item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 12px;
+}
+
+.support-item .support-item-txt {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    opacity: 0.7;
+}
+
+/* Картинки списка услуг */
+
+.support-item-1::before {
+    content: "";
+    width: 84px;
+    height: 84px;
+    background: url("img/support1.svg") no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+}
+
+.support-item-2::before {
+    content: "";
+    width: 84px;
+    height: 84px;
+    background: url("img/support2.svg") no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+}
+
+.support-item-3::before {
+    content: "";
+    width: 84px;
+    height: 84px;
+    background: url("img/support3.svg") no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+}
+
+.support-item-4::before {
+    content: "";
+    width: 84px;
+    height: 84px;
+    background: url("img/support4.svg") no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+}
+
+.support-item-5::before {
+    content: "";
+    width: 84px;
+    height: 84px;
+    background: url("img/support5.svg") no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+}
+
+.support-item-6::before {
+    content: "";
+    width: 84px;
+    height: 84px;
+    background: url("img/support6.svg") no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+}
+
+.support-item-7::before {
+    content: "";
+    width: 84px;
+    height: 84px;
+    background: url("img/support7.svg") no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+}
+
+.support-item-8::before {
+    content: "";
+    width: 84px;
+    height: 84px;
+    background: url("img/support8.svg") no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: -2px;
 }
