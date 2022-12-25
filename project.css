@@ -309,7 +309,7 @@ li {
 /* --- ФУНКЦИИ СЕРВИСА --- */
 
 .functions {
- 
+    width: 100%;
     margin-top: 160px;
     height: 650px;
     max-width: 1460px;
