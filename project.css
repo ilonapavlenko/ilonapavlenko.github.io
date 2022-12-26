@@ -1253,3 +1253,6 @@ font-weight: bold;
     border-radius: 5px;
     margin: 0px 10px;
 }
+.slider-item {
+   padding-top: 40px;
+}
