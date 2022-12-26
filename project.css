@@ -1255,3 +1255,249 @@ font-weight: bold;
 .slider-item {
    padding-top: 40px;
 }
+/* ФОРМА */
+
+
+.form {
+  margin-top: 130px;
+  background:
+      linear-gradient(261.2deg, rgba(255, 255, 255, 0.276) -114.85%,
+          rgba(255, 255, 255, 0) 69.04%), #040613;
+  height: 1016px;
+  position: relative;
+  color: white;
+}
+
+.form-main {
+  display: flex;
+  justify-content: space-around;
+  z-index: 2;
+  position: relative;
+}
+
+.form-info {
+  margin: 100px 50px 150px 330px;
+  width: 600px;
+}
+
+.form-info-txt{
+  width: 400px;
+}
+.form-info-txt span {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 51px;
+  margin-bottom: 19px;
+}
+
+.form-info-txt p {
+  opacity: 0.5;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 142px;
+}
+
+.form-number {
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-style: normal;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+}
+
+.form-mail {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.form-number #phone {
+  cursor: pointer;
+  
+}
+
+.form-mail #email {
+  cursor: pointer;
+  
+}
+
+.form-form {
+  margin: 125px 400px 110px 130px;
+  width: 480px;
+}
+
+.form-checkbox {
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.form-checkbox .checkbox-input {
+  appearance: none;
+  position: absolute;
+}
+
+.form-checkbox .checkbox-label {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  padding-left: 35px;
+}
+
+.form-checkbox .checkbox-label a {
+  color: #f14d34;
+  cursor: pointer;
+}
+
+.form-checkbox .checkbox-label a:hover {
+  text-decoration: underline;
+}
+
+.form-checkbox .checkbox-label span {
+  font-size: 18px;
+  color: red;
+}
+
+.form-checkbox .checkbox-label::before {
+  content: "";
+  display: block;
+  height: 25px;
+  width: 25px;
+  opacity: 0.5;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transform: rotate();
+}
+
+.form-checkbox .checkbox-label::after {
+  content: "";
+  display: block;
+  width: 26px;
+  height: 25px;
+  background: url("../img/form/check-mark.svg") no-repeat center;
+  background-size: 12px 10px;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  transition: 0.3s;
+  border-radius: 5px;
+  transform: rotate(-40deg);
+}
+
+.form-checkbox .checkbox-input:checked+.checkbox-label::after {
+  opacity: 1;
+  transform: rotate(0);
+}
+
+.form-checkbox .checkbox-input:checked:focus+.checkbox-label::before {
+  border-color: #f14d34;
+  box-shadow: 0px 0px 4px #f14d34,
+      0px 0px 6px #f14d34,
+      0px 0px 10px #f14d34;
+  opacity: 0.9;
+}
+
+.g-recaptcha {
+  margin: 20px 0px 20px 0px;
+}
+
+.form .fm-1 {
+  z-index: 1;
+  position: absolute;
+  left: 45%;
+}
+
+.form .fm-2 {
+  z-index: 1;
+  position: absolute;
+  top: auto;
+  right: 0;
+  bottom: 0;
+}
+
+.form-form-elem {
+  color: white;
+  font-size: 14px;
+  width: 480px;
+  height: 68px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding-left: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: none;
+  margin-bottom: 8px;
+  transition: 0.4s;
+}
+
+.form-form-elem::placeholder {
+  color: white;
+}
+
+.form-form-elem:focus {
+  outline: #f14d34;
+  border-color: #f14d34;
+  box-shadow:
+      0px 0px 6px #f14d34,
+      0px 0px 8px #f14d34,
+      0px 0px 12px #f14d34;
+}
+
+.form #comment {
+  height: 128px;
+  position: relative;
+  margin-bottom: 12px;
+  padding-bottom: 65px;
+}
+
+.form-form-btn {
+  text-transform: uppercase;
+  color: white;
+  width: 480px;
+  height: 60px;
+  border: 2px solid #f14d34;
+  border-radius: 5px;
+  background: #f14d34;
+  transition: 0.4s;
+  font-size: 12px;
+}
+
+.form-form-btn:hover {
+  background: none;
+}
+
+footer {
+  z-index: 2;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  height: 120px;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+
+footer .footer-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  opacity: 0.5;
+  margin-left: 170px;
+}
+
+.footer-text p {
+  margin-bottom: 6px;
+}
