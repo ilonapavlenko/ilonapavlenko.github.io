@@ -1701,7 +1701,7 @@ footer .footer-text {
     margin: 0px;
   }
 
-  .header-base-title {
+  .header-content-title {
     width: 240px;
     line-height: 32px;
     margin: auto;
@@ -1714,7 +1714,7 @@ footer .footer-text {
     margin: 0px auto;
   }
 
-  .header-base-text {
+  .header-content-text {
     margin: 20px auto 40px;
     width: 100%;
     line-height: 20px;
