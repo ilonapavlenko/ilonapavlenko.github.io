@@ -1540,3 +1540,728 @@ footer .footer-text {
 .textfa{
     text-align: center;
 }
+/* ОПТИМИЗАЦИЯ ДЛЯ СМАРТФОНОВ */
+
+@media screen and (max-width: 575px) {
+
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  header {
+    padding: 0px;
+  }
+
+  .o-container {
+    width: 100%;
+  }
+
+  .min-container {
+    width: 100%;
+  }
+    
+  /* ШАПКА САЙТА */
+
+  .header {
+    text-align: center;
+  }
+
+  .header-container {
+    width: 100%;
+    flex-direction: column;
+    padding: 0px 20px;
+  }
+ 
+  .header-druplicon img {
+    height: 400px;
+    width: 400px;
+  }
+
+  .header-video {
+    width: 100%;
+    min-height: 800px;
+  }
+    
+     /* mmenu в шапке */
+
+  .header-mmenu {
+    right: 0;
+    bottom: 0;
+    margin: 15px;
+    position: fixed;
+    display: block;
+    width: 30px;
+    height: 18px;
+    z-index: 10;
+  }
+
+  .header-mmenu span {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 2px;
+    top: 8px;
+    left: 0;
+    opacity: 0.5;
+  }
+
+  .header-mmenu::before,
+  .header-mmenu::after {
+    content: "";
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    opacity: 0.5;
+  }
+
+  .header-mmenu::before {
+    right: 0;
+  }
+
+  .header-mmenu::after {
+    bottom: 0;
+  }
+    
+    /* menu шапки */
+
+  .header-menu {
+    position: fixed;
+    background-color: #333;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    height: 48px;
+    justify-content: space-between;
+    padding: 0px 10px;
+  }
+
+  .header-container .header-menu li {
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 8px 20px;
+    height: 39px;
+    z-index: 10;
+  }
+
+  .header-container .header-menu li:first-child a {
+    color: #F14D34;
+  }
+
+  .header-menu-wrapper {
+    position: fixed;
+    width: 100%;
+    height: 620px;
+    bottom: -200%;
+    left: 0;
+    background-color: #333;
+    z-index: 4;
+    transition: 0.3s;
+  }
+
+  .header-menu-wrapper::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    z-index: 10;
+    border-top: 1px solid black;
+  }
+
+  .header-menu-wrapper .header-menu {
+    flex-direction: column;
+    text-align: initial;
+  }
+
+  .header-menu-wrapper .header-menu .header-lang {
+    margin-bottom: 155px;
+  }
+
+  .header-menu-wrapper .header-menu ul li {
+    margin-top: 15px;
+    width: 100%;
+    display: block;
+    margin-left: -20px;
+    background-color: #333;
+    padding: 0px;
+    border-top: 1px solid black;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+  }
+
+  .header-menu-wrapper .header-menu .submenu a {
+    font-size: 11px;
+    display: block;
+    height: 32px;
+    padding: 10px 20px;
+    padding-left: 40px;
+    border-bottom: 1px solid black;
+  }
+    
+    /* Основная информация хедера */
+
+  .header-content {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .header-content .header-txt {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .header-content-title {
+    width: 240px;
+    line-height: 32px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+  }
+
+  .header-btn {
+    margin: 0px auto;
+  }
+  .header .header-btn {
+    background-color: inherit;
+    margin-bottom: 40px;
+  }
+
+  .header-content-text {
+    margin: 20px auto 40px;
+    width: 100%;
+    line-height: 20px;
+    font-size: 14px;
+    opacity: 0.7;
+  }
+
+  /* Достижения компании */
+
+  .header-achievement {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+  }
+
+  .header .header-achievement .header-achievement-item {
+    text-align: start;
+    margin: 30px 30px 30px 40px;
+    width: 130px;
+  }
+
+  .header .header-achievement .header-achievement-item span {
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .header .header-achievement .header-achievement-item p {
+    opacity: 0.7;
+    font-family: "Montserrat";
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    margin-top: 8px;
+  }
+
+  .header .header-achievement .header-achievement-item img {
+    position: absolute;
+    top: -10px;
+  }
+    
+    
+  .functions {
+    padding: 60px 15px;
+  }
+
+  .functions-list {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+  }
+
+  .functions .functions-title {
+    padding: 10px 10px;
+    margin: 0;
+    font-size: 25px;
+    line-height: 35px;
+    width: 100%;
+  }
+
+  .functions .functions-text {
+    margin: 0;
+    padding: 20px 10px;
+    width: 100%;
+  }
+
+  .f-icon {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .f-icon p {
+    width: 135px;
+    font-size: 13px;
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+
+  .f-icon img {
+    margin: 0px auto;
+    display: block;
+  }
+
+  .f-icon::before {
+    left: 0;
+    top: 8.76%;
+    bottom: 54.64%;
+    content: "";
+    height: 71px;
+    width: 114px;
+    background: url(../img/functions/icon-bg.svg) no-repeat;
+    position: absolute;
+  }
+    
+    
+    
+   .support {
+    margin: 0;
+    padding: 10px;
+  }
+
+  .support-list {
+    margin: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr
+  }
+
+  .support-title {
+    font-size: 30px;
+    width: 250px;
+    line-height: 35px;
+  }
+
+  .support-item {
+    width: 100%;
+  }
+    
+    .support-wrapper {
+    padding: 0px 10px;
+    height: 1000px;
+  }
+
+  .support-expertise-title {
+    font-size: 25px;
+    width: 300px;
+    margin-top: -100px;
+    line-height: 30px;
+  }
+
+  .support-expertise-list {
+    flex-direction: column;
+  }
+
+  .support-expertise-list .support-expertise-item {
+    margin-top: 30px;
+  }
+
+  .support-notebook {
+    top: 685px;
+    width: 390px;
+    height: 450px;
+  }
+
+  .support-notebook img {
+    width: 400px;
+  }
+    
+    /*ТАРИФЫ*/
+  
+  .plans {
+    height: 1000px;
+    margin: 0;
+  }
+
+  .plans-card-price h3 {
+    font-size: 40px;
+  }
+
+  .plans .scaled {
+    transform: scale(1);
+    box-shadow: none;
+  }
+
+  .plans .business-scale .plans-btn {
+    width: 100%;
+    height: 60px;
+    margin-top: 0;
+    background-color: white;
+    color: #F14D34;
+  }
+
+ .plans .business-scale {
+    transform: scale(1);
+    box-shadow: none;
+  }
+
+  .plans-card-business {
+    z-index: 1;
+  }
+
+  .plans-card-business .plans-wrapper {
+    width: 300px;
+    margin: 0px auto;
+    margin-left: 0;
+  }
+  
+  .plans .scaled .plans-btn {
+    width: 100%;
+    background-color: #F14D34;
+  }
+
+  .plans-body .plans-title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .plans-body>p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .plans-cards {
+    margin: 0 20px;
+    flex-direction: column;
+  }
+
+  .plans-cards .plans-card {
+    padding: 30px 10px 20px;
+    margin: 10px 0px;
+    width: 100%;
+    height: auto;
+  }
+
+  .plans-footer-text {
+    text-align: center;
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .plans-card-starter {
+    left: 0px;
+  }
+
+  .plans-card-vip {
+    right: 0px;
+  }
+  
+  .plans-btn {
+    margin: 0px auto;
+    background-color: inherit;
+    color: #f14d34;
+    width: 100%;
+  }
+
+  .plans-card-line {
+    width: 100%;
+  }
+
+  .plans-card .plans-wrapper {
+    width: 100%;
+  }
+
+  .plans-card p {
+    font-size: 14px;
+  }
+
+    /* ПОСЛЕДНИЕ КЕЙСЫ */
+  
+  .cases {
+    margin-top: 1200px;
+  }
+
+  .cases-title {
+    margin-bottom: 30px;
+    font-size: 25px;
+  }
+
+  .cases-items {
+    width: 100%;
+    margin: 0;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cases-width-380 {
+    width: 100%;
+    height: 440px;
+    margin-bottom: 0px;
+  }
+
+  .cases-width-380 img {
+    width: 100%;
+  }
+
+  .cases-text {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .cases-width-380 .cases-text {
+    margin: 20px;
+    padding: 0;
+  }
+
+  .cases-small-case .cases-text {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .cases-width-780 {
+    width: 100%;
+    height: 440px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+  
+  .cases-width-780 img {
+    width: 100%;
+    height: 320px;
+  }
+
+  .cases-width-780 span {
+    position: absolute;
+    top: -100px;
+    right: 0;
+    padding: 0;
+    color: #fff;
+  }
+    
+  /* КОМАНДА */
+    
+  .team {
+    padding: 0px 15px;
+  }
+
+  .team-title {
+    margin-bottom: 60px;
+    font-size: 25px;
+  }
+
+  .team-list .team-list-item {
+    margin-bottom: 20px;
+    margin-top: 0px;
+    width: 155px;
+  }
+
+  .team-photo {
+    margin-bottom: 20px;
+  }
+
+  .team-photo img {
+    width: 155px;
+    height: 155px;
+  }
+
+  .team-employee .team-employee-name {
+    font-size: 14px;
+  }
+
+  .team-employee .team-employee-position {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    color: #050C33;
+    opacity: 0.7;
+  }
+    
+      /* ОТЗЫВЫ */
+
+  .reviews {
+    padding: 10px;
+    background: url("../img/reviews/right-quote-sign.svg") no-repeat left top/35%;
+  }
+
+  .reviews-title {
+    margin-bottom: 70px;
+    font-size: 25px;
+  }
+
+  .wrapper-reviews {
+    width: 100%;
+    flex-direction: column;
+    padding: 40px 10px;
+  }
+
+  .wrapper-reviews::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    z-index: -1;
+    background: #FFFFFF;
+    opacity: 0.5;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 60px rgba(162, 162, 162, 0.25);
+    border-radius: 5px;
+
+  }
+
+  .wrapper-reviews::after {
+    content: "";
+    position: absolute;
+    top: -30px;
+    bottom: 0;
+    left: 30px;
+    right: 30px;
+    z-index: -2;
+
+    background: #FFFFFF;
+    opacity: 0.34;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 60px rgba(162, 162, 162, 0.25);
+    border-radius: 5px;
+  }
+
+  .wrapper-reviews .reviews-slider {
+    border-right: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    width: 100%;
+    padding: 0px 10px 30px;
+  }
+
+  .reviews-slider .reviews-person {
+    width: 100%;
+  }
+
+  .reviews-slider .reviews-comment {
+    width: 100%;
+  }
+
+  .slick-arrows {
+    margin-top: 20px;
+  }
+        /* ПАРТНЕРЫ */
+
+  .partners {
+    padding: 10px 0px;
+  }
+
+  .partners .slider-item {
+    height: 100px;
+    width: 200px;
+  }
+
+  .partners .partners-title {
+    padding: 10px 50px;
+    font-size: 25px;
+  }
+
+  .partners .partners-txt {
+    padding: 15px 50px;
+    width: 100%;
+    text-align: start;
+  }
+
+  .partners img {
+    width: 195px;
+  }
+  /* ФОРМА */
+  .form {
+    height: 1100px;
+  }
+
+  .form-main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-main .form-info {
+    width: 100%;
+    margin: 60px;
+  }
+
+  .form-mail
+  .form-number {
+    margin-left: 25px;
+  }
+
+  .form-info-txt {
+    width: 100%;
+    text-align: center;
+  }
+
+  .form-info-txt span {
+    font-size: 25px;
+    margin-left: 20px;
+    line-height: 35px;
+  }
+
+  .form-info-txt p {
+    margin-bottom: 35px;
+    text-align: start;
+    margin: 10px 0 10px 25px;
+  }
+
+  .form-main .form-form {
+    margin-top: 40px;
+    width: 100%;
+    margin: 0;
+    padding: 0 10px;
+  }
+
+  .form-form-elem {
+    width: 100%;
+  }
+
+  .form-form-btn {
+    width: 100%;
+  }
+
+  .form-form-btn:hover {
+    background-color: #f14d34;
+  }
+
+  .form .fm-1 {
+    left: 30%;
+  }
+
+  .form .fm-1 img {
+    width: 200px;
+    height: 150px;
+  }
+
+  .form .fm-2 img {
+    width: 150px;
+    height: 70px;
+  }
+
+  .form footer {
+    height: 150px;
+    padding: 0px 20px;
+  }
+
+  .form footer .footer-text {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+}
