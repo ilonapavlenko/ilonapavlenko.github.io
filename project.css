@@ -1322,7 +1322,7 @@ font-weight: bold;
 
 }
 
-.form-form {
+.webform-form {
   margin: 125px 400px 110px 130px;
   width: 480px;
 }
@@ -1332,12 +1332,12 @@ font-weight: bold;
   position: relative;
 }
 
-.form-checkbox .checkbox-input {
+.form-checkbox .checkbox__input {
   appearance: none;
   position: absolute;
 }
 
-.form-checkbox .checkbox-label {
+.form-checkbox .checkbox__label {
   display: inline-block;
   font-size: 12px;
   font-weight: 400;
@@ -1345,21 +1345,21 @@ font-weight: bold;
   padding-left: 35px;
 }
 
-.form-checkbox .checkbox-label a {
+.form-checkbox .checkbox__label a {
   color: #f14d34;
   cursor: pointer;
 }
 
-.form-checkbox .checkbox-label a:hover {
+.form-checkbox .checkbox__label a:hover {
   text-decoration: underline;
 }
 
-.form-checkbox .checkbox-label span {
+.form-checkbox .checkbox__label span {
   font-size: 18px;
   color: red;
 }
 
-.form-checkbox .checkbox-label::before {
+.form-checkbox .checkbox__label::before {
   content: "";
   display: block;
   height: 25px;
@@ -1375,7 +1375,7 @@ font-weight: bold;
   transform: rotate();
 }
 
-.form-checkbox .checkbox-label::after {
+.form-checkbox .checkbox__label::after {
   content: "";
   display: block;
   width: 26px;
@@ -1392,12 +1392,12 @@ font-weight: bold;
   transform: rotate(-40deg);
 }
 
-.form-checkbox .checkbox-input:checked+.checkbox-label::after {
+.form-checkbox .checkbox__input:checked+.checkbox__label::after {
   opacity: 1;
   transform: rotate(0);
 }
 
-.form-checkbox .checkbox-input:checked:focus+.checkbox-label::before {
+.form-checkbox .checkbox__input:checked:focus+.checkbox__label::before {
   border-color: #f14d34;
   box-shadow: 0px 0px 4px #f14d34,
       0px 0px 6px #f14d34,
@@ -1423,7 +1423,7 @@ font-weight: bold;
   bottom: 0;
 }
 
-.form-form-elem {
+.webform-form-elem {
   color: white;
   font-size: 14px;
   width: 480px;
@@ -1437,11 +1437,11 @@ font-weight: bold;
   transition: 0.4s;
 }
 
-.form-form-elem::placeholder {
+.webform-form-elem::placeholder {
   color: white;
 }
 
-.form-form-elem:focus {
+.webform-form-elem:focus {
   outline: #f14d34;
   border-color: #f14d34;
   box-shadow:
@@ -1457,7 +1457,7 @@ font-weight: bold;
   padding-bottom: 65px;
 }
 
-.form-form-btn {
+.webform-form-btn {
   text-transform: uppercase;
   color: white;
   width: 480px;
@@ -1469,7 +1469,7 @@ font-weight: bold;
   font-size: 12px;
 }
 
-.form-form-btn:hover {
+.webform-form-btn:hover {
   background: none;
 }
 
