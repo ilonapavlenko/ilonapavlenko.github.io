@@ -119,7 +119,7 @@ var LikeButton = function (_React$Component) {
         React.createElement('input', { onClick: function onClick() {
             return _this2.setState({ liked: true });
           },
-          className: 'plans__btn',
+          className: 'plans-btn',
           type: 'button',
           value: '\u041E\u0421\u0422\u0410\u0412\u0418\u0422\u042C \u0417\u0410\u042F\u0412\u041A\u0423!' })
       );
