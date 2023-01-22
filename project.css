@@ -1258,45 +1258,46 @@ font-weight: bold;
 /* WEBFORM | ФОРМА */
 
 
-.webform {
-  animation-duration: 1.5s;
-	animation-name: Animation;
-  margin-top: 160px;
+.form {
+  margin-top: 130px;
   background:
-    linear-gradient(261.2deg, rgba(255, 255, 255, 0.276) -114.85%,
-      rgba(255, 255, 255, 0) 69.04%), #040613;
-  height: 816px;
+      linear-gradient(261.2deg, rgba(255, 255, 255, 0.276) -114.85%,
+          rgba(255, 255, 255, 0) 69.04%), #040613;
+  height: 1016px;
   position: relative;
   color: white;
 }
 
-.webform__main {
+.form-main {
   display: flex;
   justify-content: space-around;
   z-index: 2;
   position: relative;
 }
 
-.webform__info {
-  margin: 117px 220px 110px 305px;
-  width: 480px;
+.form-info {
+  margin: 100px 50px 150px 330px;
+  width: 600px;
 }
 
-.webform__info-descr span {
-  font-size: 42px;
+.form-info-txt{
+  width: 400px;
+}
+.form-info-txt span {
+  font-size: 32px;
   font-weight: bold;
   line-height: 51px;
   margin-bottom: 19px;
 }
 
-.webform__info-descr p {
-  opacity: 0.7;
+.form-info-txt p {
+  opacity: 0.5;
   font-size: 14px;
   line-height: 22px;
   margin-bottom: 142px;
 }
 
-.webform__number {
+.form-number {
   font-weight: bold;
   font-size: 32px;
   margin-bottom: 10px;
@@ -1306,7 +1307,7 @@ font-weight: bold;
   align-items: center;
 }
 
-.webform__mail {
+.form-mail {
   display: flex;
   align-items: center;
   font-weight: bold;
@@ -1314,32 +1315,32 @@ font-weight: bold;
   text-decoration: underline;
 }
 
-.webform__number #phone {
+.form-number #phone {
   cursor: pointer;
-  margin-left: 20px;
+
 }
 
-.webform__mail #email {
+.form-mail #email {
   cursor: pointer;
-  margin-left: 16px;
+
 }
 
-.webform__form {
-  margin: 125px 305px 110px 130px;
+.form-form {
+  margin: 125px 400px 110px 130px;
   width: 480px;
 }
 
-.form__checkbox {
+.form-checkbox {
   margin-bottom: 12px;
   position: relative;
 }
 
-.form__checkbox .checkbox__input {
+.form-checkbox .checkbox-input {
   appearance: none;
   position: absolute;
 }
 
-.form__checkbox .checkbox__label {
+.form-checkbox .checkbox-label {
   display: inline-block;
   font-size: 12px;
   font-weight: 400;
@@ -1347,21 +1348,21 @@ font-weight: bold;
   padding-left: 35px;
 }
 
-.form__checkbox .checkbox__label a {
+.form-checkbox .checkbox-label a {
   color: #f14d34;
   cursor: pointer;
 }
 
-.form__checkbox .checkbox__label a:hover {
+.form-checkbox .checkbox-label a:hover {
   text-decoration: underline;
 }
 
-.form__checkbox .checkbox__label span {
+.form-checkbox .checkbox-label span {
   font-size: 18px;
   color: red;
 }
 
-.form__checkbox .checkbox__label::before {
+.form-checkbox .checkbox-label::before {
   content: "";
   display: block;
   height: 25px;
@@ -1377,7 +1378,7 @@ font-weight: bold;
   transform: rotate();
 }
 
-.form__checkbox .checkbox__label::after {
+.form-checkbox .checkbox-label::after {
   content: "";
   display: block;
   width: 26px;
@@ -1394,26 +1395,30 @@ font-weight: bold;
   transform: rotate(-40deg);
 }
 
-.form__checkbox .checkbox__input:checked+.checkbox__label::after {
+.form-checkbox .checkbox-input:checked+.checkbox-label::after {
   opacity: 1;
   transform: rotate(0);
 }
 
-.form__checkbox .checkbox__input:checked:focus+.checkbox__label::before {
+.form-checkbox .checkbox-input:checked:focus+.checkbox-label::before {
   border-color: #f14d34;
   box-shadow: 0px 0px 4px #f14d34,
-    0px 0px 6px #f14d34,
-    0px 0px 10px #f14d34;
+      0px 0px 6px #f14d34,
+      0px 0px 10px #f14d34;
   opacity: 0.9;
 }
 
-.webform .ds__1 {
+.g-recaptcha {
+  margin: 20px 0px 20px 0px;
+}
+
+.form .fm-1 {
   z-index: 1;
   position: absolute;
   left: 45%;
 }
 
-.webform .ds__2 {
+.form .fm-2 {
   z-index: 1;
   position: absolute;
   top: auto;
@@ -1421,7 +1426,7 @@ font-weight: bold;
   bottom: 0;
 }
 
-.webform__form-elem {
+.form-form-elem {
   color: white;
   font-size: 14px;
   width: 480px;
@@ -1435,29 +1440,28 @@ font-weight: bold;
   transition: 0.4s;
 }
 
-.webform__form-elem::placeholder {
+.form-form-elem::placeholder {
   color: white;
 }
 
-.webform__form-elem:focus {
+.form-form-elem:focus {
   outline: #f14d34;
   border-color: #f14d34;
   box-shadow:
-    0px 0px 6px #f14d34,
-    0px 0px 8px #f14d34,
-    0px 0px 12px #f14d34;
+      0px 0px 6px #f14d34,
+      0px 0px 8px #f14d34,
+      0px 0px 12px #f14d34;
 }
 
-.webform #comment {
+.form #comment {
   height: 128px;
   position: relative;
   margin-bottom: 12px;
   padding-bottom: 65px;
 }
 
-.webform__form-btn {
+.form-form-btn {
   text-transform: uppercase;
-  cursor: pointer;
   color: white;
   width: 480px;
   height: 60px;
@@ -1468,7 +1472,7 @@ font-weight: bold;
   font-size: 12px;
 }
 
-.webform__form-btn:hover {
+.form-form-btn:hover {
   background: none;
 }
 
