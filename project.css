@@ -1498,4 +1498,43 @@ footer .footer-text {
   margin-bottom: 6px;
 }
 
+/*faq*/
+.accordion {
+    margin: auto;
+    max-width: 960px;
+}
+
+#faqRegion{
+    margin-bottom: 25px;
+    font-size: 50px;
+    border-bottom: solid 1px rgb(41, 43, 44, 0.25);
+}
+
+.accordion-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion-wrapper{
+    margin: 50px 100px 50px 100px;
+}
+
+.accordion-header {
+    background: white;
+    padding: 7px 15px;
+    margin: 0;
+    font: bold 120%/100% Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.accordion-group.toggle{
+    border: 2px solid #f14d34;
+}
+.accordion-header:hover {
+    background-color: white;
+}
+
+.accordion-content {
+    background: transparent;
+    padding: 10px 15px 20px;
+}
 
