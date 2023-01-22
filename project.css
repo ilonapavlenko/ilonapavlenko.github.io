@@ -1265,36 +1265,36 @@ font-weight: bold;
   color: white;
 }
 
-.form-main {
+.webform__main {
   display: flex;
   justify-content: space-around;
   z-index: 2;
   position: relative;
 }
 
-.form-info {
+.webform__info {
   margin: 100px 50px 150px 330px;
   width: 600px;
 }
 
-.form-info-txt{
+.webform__info-descr{
   width: 400px;
 }
-.form-info-txt span {
+.webform__info-descr span {
   font-size: 32px;
   font-weight: bold;
   line-height: 51px;
   margin-bottom: 19px;
 }
 
-.form-info-txt p {
+.webform__info-descr p {
   opacity: 0.5;
   font-size: 14px;
   line-height: 22px;
   margin-bottom: 142px;
 }
 
-.form-number {
+.webform__number {
   font-weight: bold;
   font-size: 32px;
   margin-bottom: 10px;
@@ -1304,7 +1304,7 @@ font-weight: bold;
   align-items: center;
 }
 
-.form-mail {
+.webform__mail {
   display: flex;
   align-items: center;
   font-weight: bold;
@@ -1312,32 +1312,32 @@ font-weight: bold;
   text-decoration: underline;
 }
 
-.form-number #phone {
+.webform__number #phone {
   cursor: pointer;
 
 }
 
-.form-mail #email {
+.webform__mail #email {
   cursor: pointer;
 
 }
 
-.webform-form {
+.webform__form {
   margin: 125px 400px 110px 130px;
   width: 480px;
 }
 
-.form-checkbox {
+.form__checkbox {
   margin-bottom: 12px;
   position: relative;
 }
 
-.form-checkbox .checkbox__input {
+.form__checkbox .checkbox__input {
   appearance: none;
   position: absolute;
 }
 
-.form-checkbox .checkbox__label {
+.form__checkbox .checkbox__label {
   display: inline-block;
   font-size: 12px;
   font-weight: 400;
@@ -1345,12 +1345,12 @@ font-weight: bold;
   padding-left: 35px;
 }
 
-.form-checkbox .checkbox__label a {
+.form__checkbox .checkbox__label a {
   color: #f14d34;
   cursor: pointer;
 }
 
-.form-checkbox .checkbox__label a:hover {
+.form__checkbox .checkbox__label a:hover {
   text-decoration: underline;
 }
 
@@ -1359,7 +1359,7 @@ font-weight: bold;
   color: red;
 }
 
-.form-checkbox .checkbox__label::before {
+.form__checkbox .checkbox__label::before {
   content: "";
   display: block;
   height: 25px;
@@ -1375,7 +1375,7 @@ font-weight: bold;
   transform: rotate();
 }
 
-.form-checkbox .checkbox__label::after {
+.form__checkbox .checkbox__label::after {
   content: "";
   display: block;
   width: 26px;
@@ -1392,12 +1392,12 @@ font-weight: bold;
   transform: rotate(-40deg);
 }
 
-.form-checkbox .checkbox__input:checked+.checkbox__label::after {
+.form__checkbox .checkbox__input:checked+.checkbox__label::after {
   opacity: 1;
   transform: rotate(0);
 }
 
-.form-checkbox .checkbox__input:checked:focus+.checkbox__label::before {
+.form__checkbox .checkbox__input:checked:focus+.checkbox__label::before {
   border-color: #f14d34;
   box-shadow: 0px 0px 4px #f14d34,
       0px 0px 6px #f14d34,
@@ -1423,7 +1423,7 @@ font-weight: bold;
   bottom: 0;
 }
 
-.webform-form-elem {
+.webform__form-elem {
   color: white;
   font-size: 14px;
   width: 480px;
@@ -1437,11 +1437,11 @@ font-weight: bold;
   transition: 0.4s;
 }
 
-.webform-form-elem::placeholder {
+.webform__form-elem::placeholder {
   color: white;
 }
 
-.webform-form-elem:focus {
+.webform__form-elem:focus {
   outline: #f14d34;
   border-color: #f14d34;
   box-shadow:
@@ -1457,7 +1457,7 @@ font-weight: bold;
   padding-bottom: 65px;
 }
 
-.webform-form-btn {
+.webform__form-btn {
   text-transform: uppercase;
   color: white;
   width: 480px;
@@ -1469,7 +1469,7 @@ font-weight: bold;
   font-size: 12px;
 }
 
-.webform-form-btn:hover {
+.webform__form-btn:hover {
   background: none;
 }
 
