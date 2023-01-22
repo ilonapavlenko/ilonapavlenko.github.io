@@ -86,3 +86,19 @@ $(document).ready(function(){
         }],
     });
   });
+//faq
+ $(document).ready(function() {
+	let oldelem=null;
+	$(".accordion-content").hide();
+	$(".accordion-header").click(function () {
+    if($(this).next().is(":animated")) return;
+    $(this).next().slideToggle();
+    $(this).toggleClass("active");
+    $(this).parent().toggleClass("toggle");
+    if(oldelem===this) return;
+    $(oldelem).next().slideUp();
+    $(oldelem).removeClass("active");
+    $(oldelem).parent().removeClass("toggle");
+    oldelem=this;
+ });
+}); 
