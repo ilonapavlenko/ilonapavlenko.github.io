@@ -1354,7 +1354,7 @@ font-weight: bold;
   text-decoration: underline;
 }
 
-.form-checkbox .checkbox__label span {
+.form__checkbox .checkbox__label span {
   font-size: 18px;
   color: red;
 }
@@ -1409,13 +1409,13 @@ font-weight: bold;
   margin: 20px 0px 20px 0px;
 }
 
-.form .fm-1 {
+.form .ds__1 {
   z-index: 1;
   position: absolute;
   left: 45%;
 }
 
-.form .fm-2 {
+.form .ds__2 {
   z-index: 1;
   position: absolute;
   top: auto;
@@ -2222,20 +2222,20 @@ footer .footer-text {
     width: 100%;
   }
 
-  .form-form-btn:hover {
+  .webform_form-btn:hover {
     background-color: #f14d34;
   }
 
-  .form .fm-1 {
+  .form .ds__1 {
     left: 30%;
   }
 
-  .form .fm-1 img {
+  .form .ds__2 img {
     width: 200px;
     height: 150px;
   }
 
-  .form .fm-2 img {
+  .form .ds__2 img {
     width: 150px;
     height: 70px;
   }
