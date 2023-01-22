@@ -52,7 +52,7 @@ class LikeButton extends React.Component {
                   type = "checkbox"
                   id = "userAgreement" />
                 <label
-                  className="checkbox-label"
+                  className="checkbox__label"
                   type = "text"
                   htmlFor="userAgreement" > Отправляя заявку я даю согласие на <a> обработку своих персональных данных </a>
                 </label>
