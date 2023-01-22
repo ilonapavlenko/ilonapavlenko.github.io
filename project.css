@@ -334,7 +334,7 @@ li {
     line-height: 51px;
     margin-bottom: 18px;
     color: #050C33;
-    margin-left: 130px;
+    margin-left: 180px;
 }
 
 .functions-text {
@@ -344,7 +344,7 @@ li {
     line-height: 22px;
     color: #050C33;
     opacity: 0.7;
-    margin-left: 130px;
+    margin-left: 180px;
 }
 
 /*  Список функций  */
@@ -354,7 +354,7 @@ li {
     margin-top: 63px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-left: 130px;
+    margin-left: 180px;
 }
 
 .f-icon {
