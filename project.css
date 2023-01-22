@@ -1545,47 +1545,21 @@ footer .footer-text {
 
 @media screen and (max-width: 575px) {
 
-  html,
+   html,
   body {
-    max-width: 100%;
+    width: 100%;
     overflow-x: hidden;
   }
 
   header {
-    padding: 0px;
+    padding: 0px 5px;
   }
 
   .o-container {
     width: 100%;
   }
 
-  .min-container {
-    width: 100%;
-  }
-    
-  /* ШАПКА САЙТА */
-
-  .header {
-    text-align: center;
-  }
-
-  .header-container {
-    width: 100%;
-    flex-direction: column;
-    padding: 0px 20px;
-  }
- 
-  .header-druplicon img {
-    height: 400px;
-    width: 400px;
-  }
-
-  .header-video {
-    width: 100%;
-    min-height: 800px;
-  }
-    
-     /* mmenu в шапке */
+  
 
   .header-mmenu {
     right: 0;
@@ -1595,7 +1569,7 @@ footer .footer-text {
     display: block;
     width: 30px;
     height: 18px;
-    z-index: 10;
+    z-index: 16;
   }
 
   .header-mmenu span {
@@ -1626,41 +1600,37 @@ footer .footer-text {
   .header-mmenu::after {
     bottom: 0;
   }
-    
-    /* menu шапки */
 
   .header-menu {
     position: fixed;
     background-color: #333;
     bottom: 0;
     left: 0;
-    z-index: 15;
-    height: 48px;
+    z-index: 12;
+    height: 500px;
+    transform: translate(0px, 100%);
     justify-content: space-between;
+    transition: 0.3s ease 0s;
     padding: 0px 10px;
-  }
-
-  .header-container .header-menu li {
-    width: 100%;
-    border-bottom: 1px solid black;
-    padding: 8px 20px;
-    height: 39px;
-    z-index: 10;
-  }
-
-  .header-container .header-menu li:first-child a {
-    color: #F14D34;
   }
 
   .header-menu-wrapper {
     position: fixed;
     width: 100%;
-    height: 620px;
-    bottom: -200%;
+    height: 50px;
     left: 0;
+    bottom: 0;
     background-color: #333;
-    z-index: 4;
-    transition: 0.3s;
+    z-index: 15;
+  }
+
+  .header-logo {
+    padding: 0px 165px 0 0;
+    left: 0;
+  }
+
+  .show {
+    transform: translate(10px, 10px);
   }
 
   .header-menu-wrapper::before {
@@ -1671,8 +1641,14 @@ footer .footer-text {
     top: 0;
     left: 0;
     background-color: #333;
-    z-index: 10;
+    z-index: 15;
     border-top: 1px solid black;
+  }
+
+  .header-container {
+    width: 100%;
+    flex-direction: column;
+    padding: 0px 20px;
   }
 
   .header-menu-wrapper .header-menu {
@@ -1680,31 +1656,38 @@ footer .footer-text {
     text-align: initial;
   }
 
-  .header-menu-wrapper .header-menu .header-lang {
-    margin-bottom: 155px;
+
+  .header-adm,.topmenu {
+    visibility: hidden;
   }
 
-  .header-menu-wrapper .header-menu ul li {
-    margin-top: 15px;
+  .header-adm,.topmenu
+  .header-container .header-menu li {
     width: 100%;
-    display: block;
-    margin-left: -20px;
-    background-color: #333;
-    padding: 0px;
-    border-top: 1px solid black;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    margin-top: 25px;
+    border-bottom: 1px solid black;
+    padding: 8px 20px;
+    height: 39px;
+    z-index: 10;
   }
 
-  .header-menu-wrapper .header-menu .submenu a {
-    font-size: 11px;
-    display: block;
-    height: 32px;
-    padding: 10px 20px;
-    padding-left: 40px;
-    border-bottom: 1px solid black;
+  .header-container .header-menu li {
+    height: 200px;
   }
-    
-    /* Основная информация хедера */
+
+  .header-druplicon img {
+    height: 400px;
+    width: 100%;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .header-video {
+    width: 100%;
+    min-height: 800px;
+  }
 
   .header-content {
     width: 100%;
@@ -1728,10 +1711,6 @@ footer .footer-text {
   .header-btn {
     margin: 0px auto;
   }
-  .header .header-btn {
-    background-color: inherit;
-    margin-bottom: 40px;
-  }
 
   .header-content-text {
     margin: 20px auto 40px;
@@ -1740,8 +1719,6 @@ footer .footer-text {
     font-size: 14px;
     opacity: 0.7;
   }
-
-  /* Достижения компании */
 
   .header-achievement {
     display: grid;
@@ -1773,6 +1750,11 @@ footer .footer-text {
   .header .header-achievement .header-achievement-item img {
     position: absolute;
     top: -10px;
+  }
+
+  .header .header-btn {
+    background-color: inherit;
+    margin-bottom: 40px;
   }
     
     
