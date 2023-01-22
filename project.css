@@ -1497,3 +1497,29 @@ footer .footer-text {
 .footer-text p {
   margin-bottom: 6px;
 }
+
+
+/*13 лет*/
+ .img-competency{
+        width: 70px;
+        height: 70px;
+        margin-bottom: 5px;
+    }
+
+    .text-competency{
+        font-size: 14px;
+        font-weight: 500;
+        color: #4f5a73;
+    }
+
+    .img-competency-wrapper{
+        z-index: 5;
+        position: relative;
+    }
+
+    .competency-header{
+        font-size: 42px;
+        font-weight: bold;
+        line-height: 1.1;
+        font-family: inherit;
+    }
