@@ -1632,7 +1632,7 @@ footer .footer-text {
   }
 
   .show {
-    transform: translate(10px, 10px);
+    transform: translate(0px, 0px);
   }
 
   .header-menu-wrapper::before {
@@ -1691,12 +1691,12 @@ footer .footer-text {
     min-height: 800px;
   }
 
-  .header-base {
+  .header-content {
     width: 100%;
     flex-direction: column;
   }
 
-  .header-base .header-txt {
+  .header-content .header-txt {
     width: 100%;
     margin: 0px;
   }
