@@ -85,7 +85,25 @@ $(document).ready(function(){
             }
         }],
     });
-  });
+ $('.header-mmenu').click(function (event) {
+        $('.header-menu').toggleClass('show');
+    });
+});
+
+// FETCH
+
+const formElem = document.querySelector("#form");
+
+formElem.onsubmit = async (e) => {
+    e.preventDefault();
+
+    let response = await fetch('https://formcarry.com/s/i9EtQjA3zV1', {
+        method: 'POST',
+        body: new FormData(formElem)
+    });
+    formElem.reset();
+    alert("Данные отправлены!");
+}
 //faq
  $(document).ready(function() {
 	let oldelem=null;
