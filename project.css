@@ -1255,49 +1255,48 @@ font-weight: bold;
 .slider-item {
    padding-top: 40px;
 }
-/* ФОРМА */
+/* WEBFORM | ФОРМА */
 
 
-.form {
-  margin-top: 130px;
+.webform {
+  animation-duration: 1.5s;
+	animation-name: Animation;
+  margin-top: 160px;
   background:
-      linear-gradient(261.2deg, rgba(255, 255, 255, 0.276) -114.85%,
-          rgba(255, 255, 255, 0) 69.04%), #040613;
-  height: 1016px;
+    linear-gradient(261.2deg, rgba(255, 255, 255, 0.276) -114.85%,
+      rgba(255, 255, 255, 0) 69.04%), #040613;
+  height: 816px;
   position: relative;
   color: white;
 }
 
-.form-main {
+.webform__main {
   display: flex;
   justify-content: space-around;
   z-index: 2;
   position: relative;
 }
 
-.form-info {
-  margin: 100px 50px 150px 330px;
-  width: 600px;
+.webform__info {
+  margin: 117px 220px 110px 305px;
+  width: 480px;
 }
 
-.form-info-txt{
-  width: 400px;
-}
-.form-info-txt span {
-  font-size: 32px;
+.webform__info-descr span {
+  font-size: 42px;
   font-weight: bold;
   line-height: 51px;
   margin-bottom: 19px;
 }
 
-.form-info-txt p {
-  opacity: 0.5;
+.webform__info-descr p {
+  opacity: 0.7;
   font-size: 14px;
   line-height: 22px;
   margin-bottom: 142px;
 }
 
-.form-number {
+.webform__number {
   font-weight: bold;
   font-size: 32px;
   margin-bottom: 10px;
@@ -1307,7 +1306,7 @@ font-weight: bold;
   align-items: center;
 }
 
-.form-mail {
+.webform__mail {
   display: flex;
   align-items: center;
   font-weight: bold;
@@ -1315,32 +1314,32 @@ font-weight: bold;
   text-decoration: underline;
 }
 
-.form-number #phone {
+.webform__number #phone {
   cursor: pointer;
-  
+  margin-left: 20px;
 }
 
-.form-mail #email {
+.webform__mail #email {
   cursor: pointer;
-  
+  margin-left: 16px;
 }
 
-.form-form {
-  margin: 125px 400px 110px 130px;
+.webform__form {
+  margin: 125px 305px 110px 130px;
   width: 480px;
 }
 
-.form-checkbox {
+.form__checkbox {
   margin-bottom: 12px;
   position: relative;
 }
 
-.form-checkbox .checkbox-input {
+.form__checkbox .checkbox__input {
   appearance: none;
   position: absolute;
 }
 
-.form-checkbox .checkbox-label {
+.form__checkbox .checkbox__label {
   display: inline-block;
   font-size: 12px;
   font-weight: 400;
@@ -1348,21 +1347,21 @@ font-weight: bold;
   padding-left: 35px;
 }
 
-.form-checkbox .checkbox-label a {
+.form__checkbox .checkbox__label a {
   color: #f14d34;
   cursor: pointer;
 }
 
-.form-checkbox .checkbox-label a:hover {
+.form__checkbox .checkbox__label a:hover {
   text-decoration: underline;
 }
 
-.form-checkbox .checkbox-label span {
+.form__checkbox .checkbox__label span {
   font-size: 18px;
   color: red;
 }
 
-.form-checkbox .checkbox-label::before {
+.form__checkbox .checkbox__label::before {
   content: "";
   display: block;
   height: 25px;
@@ -1378,12 +1377,12 @@ font-weight: bold;
   transform: rotate();
 }
 
-.form-checkbox .checkbox-label::after {
+.form__checkbox .checkbox__label::after {
   content: "";
   display: block;
   width: 26px;
   height: 25px;
-  background: url("../img/form/check-mark.svg") no-repeat center;
+  background: url("../img/check-mark.svg") no-repeat center;
   background-size: 12px 10px;
   opacity: 0;
   position: absolute;
@@ -1395,30 +1394,26 @@ font-weight: bold;
   transform: rotate(-40deg);
 }
 
-.form-checkbox .checkbox-input:checked+.checkbox-label::after {
+.form__checkbox .checkbox__input:checked+.checkbox__label::after {
   opacity: 1;
   transform: rotate(0);
 }
 
-.form-checkbox .checkbox-input:checked:focus+.checkbox-label::before {
+.form__checkbox .checkbox__input:checked:focus+.checkbox__label::before {
   border-color: #f14d34;
   box-shadow: 0px 0px 4px #f14d34,
-      0px 0px 6px #f14d34,
-      0px 0px 10px #f14d34;
+    0px 0px 6px #f14d34,
+    0px 0px 10px #f14d34;
   opacity: 0.9;
 }
 
-.g-recaptcha {
-  margin: 20px 0px 20px 0px;
-}
-
-.form .fm-1 {
+.webform .ds__1 {
   z-index: 1;
   position: absolute;
   left: 45%;
 }
 
-.form .fm-2 {
+.webform .ds__2 {
   z-index: 1;
   position: absolute;
   top: auto;
@@ -1426,7 +1421,7 @@ font-weight: bold;
   bottom: 0;
 }
 
-.form-form-elem {
+.webform__form-elem {
   color: white;
   font-size: 14px;
   width: 480px;
@@ -1440,28 +1435,29 @@ font-weight: bold;
   transition: 0.4s;
 }
 
-.form-form-elem::placeholder {
+.webform__form-elem::placeholder {
   color: white;
 }
 
-.form-form-elem:focus {
+.webform__form-elem:focus {
   outline: #f14d34;
   border-color: #f14d34;
   box-shadow:
-      0px 0px 6px #f14d34,
-      0px 0px 8px #f14d34,
-      0px 0px 12px #f14d34;
+    0px 0px 6px #f14d34,
+    0px 0px 8px #f14d34,
+    0px 0px 12px #f14d34;
 }
 
-.form #comment {
+.webform #comment {
   height: 128px;
   position: relative;
   margin-bottom: 12px;
   padding-bottom: 65px;
 }
 
-.form-form-btn {
+.webform__form-btn {
   text-transform: uppercase;
+  cursor: pointer;
   color: white;
   width: 480px;
   height: 60px;
@@ -1472,7 +1468,7 @@ font-weight: bold;
   font-size: 12px;
 }
 
-.form-form-btn:hover {
+.webform__form-btn:hover {
   background: none;
 }
 
