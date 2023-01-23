@@ -940,7 +940,7 @@ li {
     line-height: 51px;
     margin-bottom: 18px;
     color: #050C33;
-    margin-left: 180px;
+    margin-left: 270px;
 }
 
 
@@ -948,7 +948,7 @@ li {
 /*  наши профф  */
 
 .proff-list {
-    margin-left: 330px;
+    margin-left: 270px;
     margin-top: 63px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -1712,11 +1712,11 @@ footer .footer-text {
   }
 
 
-  .header-adm {
+  .topmenu {
     visibility: hidden;
   }
 
-  .header-adm,
+  .topmenu,
   .header-base .header-menu li {
     width: 100%;
     margin-top: 25px;
