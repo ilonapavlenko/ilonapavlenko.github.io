@@ -952,7 +952,7 @@ li {
     margin-top: 63px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-left: 180px;
+    
 }
 
 .proff-icon {
