@@ -611,274 +611,285 @@ li {
 /* ТАРИФЫ */
 
 .plans {
-    position: relative;
-    height: 913px;
+  position: relative;
+  height: 913px;
 }
 
 .plans-body {
-    padding: 150px 0px;
+  padding: 150px 0px;
 }
 
 .plans-body p {
-    text-align: start;
-    width: 468px;
-    font-size: 16px;
-    line-height: 22px;
-    color: #050C33;
+  text-align: start;
+  width: 468px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #050C33;
 }
 
 .plans-body a {
-    display: block;
-    width: 260px;
-    color: #050C33;
-    font-size: 12px;
-    text-decoration: underline;
-    margin: 24px auto;
+  display: block;
+  width: 260px;
+  color: #050C33;
+  font-size: 12px;
+  text-decoration: underline;
+  margin: 24px auto;
 }
+
+/* фон */
 
 .big-D-background {
-    position: absolute;
-    top: 0;
-    right: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
+
+/* линия в карточках */
 
 .plans-card-line {
-    width: 300px;
-    height: 1px;
-    opacity: 0.2;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    background-color: black;
+  width: 300px;
+  height: 1px;
+  opacity: 0.2;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background-color: black;
 }
 
-/* заголовок*/
+/* заголовок раздела */
 
 .plans-title {
-    font-size: 42px;
-    margin-bottom: 60px;
-    position: relative;
-    z-index: 4;
-    font-weight: bold;
-    line-height: 51px;
-    align-items: center;
-    text-align: center;
+  font-size: 42px;
+  margin-bottom: 60px;
+  position: relative;
+  z-index: 4;
+  font-weight: bold;
+  line-height: 51px;
+  align-items: center;
+  text-align: center;
 }
 
 /* карточки */
 
 .plans-cards {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    align-items: center;
-    margin-bottom: 52px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  margin-bottom: 52px;
 }
 
+/* заголов карточек */
+
 .plans-card-title h4 {
-    color: #F14D34;
-    font-size: 22px;
-    font-weight: 700;
+  color: #F14D34;
+  font-size: 22px;
+  font-weight: 700;
 }
-.plans-card-price h3 {
-    font-weight: bold;
-    font-size: 72px;
-    line-height: 72px;
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-    color: #050C33;
+
+/* цены карточек */
+
+.plans-card-price h4 {
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #050C33;
 }
 
 .plans-card-price span {
-    position: relative;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 28px;
-    top: -11px;
-    color: #050C33;
+  position: relative;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 28px;
+  top: -11px;
+  color: #050C33;
 }
 
 .plans-card-price p {
-    position: relative;
-    right: 15px;
-    font-size: 16px;
-    line-height: 20px;
-    display: flex;
-    align-items: start;
-    color: #050C33;
-    opacity: 1;
+  position: relative;
+  right: 15px;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: start;
+  color: #050C33;
+  opacity: 1;
 }
 
-/* анимация наведения на карточки */
+/* анимация карточек с помощью JS */
 
 .plans .scaled {
-    z-index: 2;
-    transform: scale(1.08);
-    box-shadow: 0px 4px 60px rgba(162, 162, 162, 0.25);
+  z-index: 2;
+  transform: scale(1.08);
+  box-shadow: 0px 4px 60px rgba(162, 162, 162, 0.25);
 }
 
 .plans .scaled .plans-btn {
-    color: white;
-    background-color: #F14D34;
+  color: white;
+  background-color: #F14D34;
 }
 
 .plans .business-scale {
-    padding-top: 85px;
-    z-index: 1;
-    transform: scale(0.93);
-    box-shadow: none;
+  padding-top: 85px;
+  z-index: 1;
+  transform: scale(0.93);
+  box-shadow: none;
 }
 
 .plans .business-scale .plans-btn {
-
-    width: 300px;
-    margin-top: 50px;
-    background-color: white;
-    color: #F14D34;
+  width: 300px;
+  margin-top: 50px;
+  background-color: white;
+  color: #F14D34;
 }
 
 /* тело карточек */
 
 .plans-card {
-    padding: 70px 20px 60px;
+  padding: 70px 20px 60px;
 }
 
 .plans-card p {
-    color: #050C33;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-    margin-left: 15px;
-    opacity: 0.7;
+  color: #050C33;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-left: 15px;
+  opacity: 0.7;
 }
 
 .plans-wrapper {
-    width: 330px;
-    margin: 0px auto;
-    margin-left: 20px;
+  width: 330px;
+  margin: 0px auto;
+  margin-left: 20px;
 
 }
 
-/* кнопки*/
+/* кнопки карточек */
 
 .plans-btn {
-    color: #F14D34;
-    font-size: 12px;
-    width: 300px;
-    height: 60px;
-    border: 1px solid #F14D34;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    background-color: white;
-    transition: 0.4s;
-    cursor: pointer;
+  color: #F14D34;
+  font-size: 12px;
+  width: 300px;
+  height: 60px;
+  border: 1px solid #F14D34;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  background-color: white;
+  transition: 0.4s;
+  cursor: pointer;
 }
 
-/* стартовый */
+/* карточка пакета "стартовый" */
 
 .plans-card-starter {
-    position: relative;
-    left: 20px;
-    z-index: 1;
-    width: 360px;
-    height: 619px;
-    border-radius: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    margin-right: 15px;
-    background: white;
-    transition: 0.4s;
+  position: relative;
+  left: 20px;
+  z-index: 1;
+  width: 360px;
+  height: 619px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-right: 15px;
+  background: white;
+  transition: 0.4s;
 }
 
 .plans-card-starter .plans-card-line {
-    width: 270px;
+  width: 270px;
 }
 
 .plans-card-starter .plans-wrapper {
-    width: 300px;
-    margin: 0px auto;
+  width: 300px;
+  margin: 0px auto;
 }
 
-/* бизнес */
+/* карточка пакета "бизнес" */
 
 .plans-card-business {
-    box-shadow: 0px 4px 60px rgba(162, 162, 162, 0.25);
-    z-index: 2;
-    width: 390px;
-    height: 665px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    background: white;
-    transition: 0.4s;
+  box-shadow: 0px 4px 60px rgba(162, 162, 162, 0.25);
+  z-index: 2;
+  width: 390px;
+  height: 665px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background: white;
+  transition: 0.4s;
 }
 
 .plans-card-business .plans-card-line {
-    margin-bottom: 65px;
+  margin-bottom: 65px;
 }
 
 .plans-card-business .plans-btn {
-    background-color: #F14D34;
-    color: white;
+  background-color: #F14D34;
+  color: white;
 }
 
 .business-btn {
-    margin-top: 75px;
+  margin-top: 75px;
 }
 
-/* vip */
+/* карточка пакета "vip" */
 
 .plans-card-vip {
-    position: relative;
-    right: 20px;
-    z-index: 1;
-    width: 360px;
-    height: 619px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    margin-left: 15px;
-    background: white;
-    transition: 0.4s;
+  position: relative;
+  right: 20px;
+  z-index: 1;
+  width: 360px;
+  height: 619px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-left: 15px;
+  background: white;
+  transition: 0.4s;
 }
 
 .plans-card-vip .plans-card-line {
-    width: 270px;
+  width: 270px;
 }
 
 .plans-card-vip .plans-wrapper {
-    width: 300px;
-    margin: 0px auto;
+  width: 300px;
+  margin: 0px auto;
 }
 
-/* возможности тарифов */
+/* опции карточек */
 
 .plans-card-list-options {
-    margin-bottom: 20px;
-    display: flex;
-    width: 300px;
+  margin-bottom: 20px;
+  display: flex;
+  width: 300px;
 }
+
+/* галочки в карточках */
 
 .plans-card-checkmark {
-    width: 30px;
-    height: auto;
+  width: 30px;
+  height: auto;
 }
-/* футер */
+
+/* футер / текст под всеми карточками */
 
 .plans-footer-text {
-    display: block;
-    margin: 53px auto 0 auto;
-    text-align: center;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-    width: 468px;
-    opacity: 0.5;
+  display: block;
+  margin: 53px auto 0 auto;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  width: 468px;
+  opacity: 0.5;
 }
 /* КОМАНДА */
 
 .team {
     width: 100%;
-    margin-top: 260px;
+    margin-top: 50px;
 }
 
 .team-title {
@@ -914,7 +925,7 @@ li {
 
 /**/
 .proff {
-    margin-top: 160px;
+    margin-top: 300px;
     width: 1440px;
 }
 
@@ -1911,7 +1922,7 @@ footer .footer-text {
     
     /*ТАРИФЫ*/
   
-  .plans {
+   .plans {
     height: 1000px;
     margin: 0;
   }
@@ -1933,24 +1944,14 @@ footer .footer-text {
     color: #F14D34;
   }
 
- .plans .business-scale {
-    transform: scale(1);
-    box-shadow: none;
-  }
-
-  .plans-card-business {
-    z-index: 1;
-  }
-
-  .plans-card-business .plans-wrapper {
-    width: 300px;
-    margin: 0px auto;
-    margin-left: 0;
-  }
-  
   .plans .scaled .plans-btn {
     width: 100%;
     background-color: #F14D34;
+  }
+
+  .plans .business-scale {
+    transform: scale(1);
+    box-shadow: none;
   }
 
   .plans-body .plans-title {
@@ -1986,15 +1987,12 @@ footer .footer-text {
     left: 0px;
   }
 
+  .plans-card-business {
+    z-index: 1;
+  }
+
   .plans-card-vip {
     right: 0px;
-  }
-  
-  .plans-btn {
-    margin: 0px auto;
-    background-color: inherit;
-    color: #f14d34;
-    width: 100%;
   }
 
   .plans-card-line {
@@ -2005,8 +2003,21 @@ footer .footer-text {
     width: 100%;
   }
 
+  .plans-card-business .plans-wrapper {
+    width: 300px;
+    margin: 0px auto;
+    margin-left: 0;
+  }
+
   .plans-card p {
     font-size: 14px;
+  }
+
+  .plans-btn {
+    margin: 0px auto;
+    background-color: inherit;
+    color: #f14d34;
+    width: 100%;
   }
 
 .proff {
