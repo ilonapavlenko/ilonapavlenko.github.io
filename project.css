@@ -939,7 +939,7 @@ font-weight: bold;
 
 .cases {
     width: 100%;
-    margin-top: 120px;
+    margin-top: 10px;
 }
 
 .cases-title {
@@ -1970,7 +1970,7 @@ footer .footer-text {
     /* ПОСЛЕДНИЕ КЕЙСЫ */
   
   .cases {
-    margin-top: 1200px;
+    margin-top: 120px;
   }
 
   .cases-title {
