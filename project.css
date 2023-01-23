@@ -913,27 +913,69 @@ li {
 
 
 /**/
-.team-employee-name {
-font-weight: bold;
+.proff {
+    margin-top: 160px;
+    width: 1440px;
 }
-.team-employee-position{
-    margin-top: 10px;
+
+/* Описание */
+
+.proff-title {
+    margin: 0px 700px 18px 339px;
+    width: 750px;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 51px;
+    margin-bottom: 18px;
+    color: #050C33;
+    margin-left: 180px;
+}
+
+
+
+/*  наши профф  */
+
+.proff-list {
+    margin-left: 330px;
+    margin-top: 63px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 180px;
+}
+
+.proff-icon {
+    align-self: center;
+    justify-self: center;
+    height: 200px;
+    position: relative;
+    width: 182px;
+    margin-right: 147px;
+    margin-bottom: 50px;
+}
+
+.proff-icon p {
+    margin-top: 25px;
+    width: 182px;
+    font-size: 16px;
+    line-height: 22px;
+    opacity: 0.7;
+}
+
+.proff-icon::before {
+    left: -30.22%;
+    right: 67.58%;
+    top: 8.76%;
+    bottom: 54.64%;
+    content: "";
+    height: 71px;
+    width: 114px;
+    background: url(../img/functions/icon-bg.svg) no-repeat;
+    position: absolute;
 }
 .nameproff{
     font-size:30px;
     font-weight: bold;
-}
-.proff-title{
-    font-weight: bold;
-    font-size: 42px;
-    line-height: 55px;
-    width: 1200px;
-    margin-left:250px;
-    color: #050C33;
-}
-.proff-position{
-    margin-top: 10px;
-    width: 200px;
 }
 /* ПОСЛЕДНИЕ КЕЙСЫ */
 
@@ -1966,59 +2008,42 @@ footer .footer-text {
   .plans-card p {
     font-size: 14px;
   }
-/**/
+
 .proff {
-    margin-top: 160px;
-    width: 1440px;
-}
+    padding: 60px 15px;
+  }
 
-/* Описание */
-
-.proff-title {
-    margin: 0px 700px 18px 339px;
-    width: 750px;
-    font-size: 42px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 51px;
-    margin-bottom: 18px;
-    color: #050C33;
-    margin-left: 180px;
-}
-
-
-
-/*  наши профф  */
-
-.proff-list {
-    margin-left: 330px;
-    margin-top: 63px;
+  .proff-list {
+    margin: 0;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin-left: 180px;
-}
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+  }
 
-.proff-icon {
-    align-self: center;
-    justify-self: center;
-    height: 200px;
-    position: relative;
-    width: 182px;
-    margin-right: 147px;
-    margin-bottom: 50px;
-}
+  .proff .proff-title {
+    padding: 10px 10px;
+    margin: 0;
+    font-size: 25px;
+    line-height: 35px;
+    width: 100%;
+  }
 
-.proff-icon p {
-    margin-top: 25px;
-    width: 182px;
-    font-size: 16px;
-    line-height: 22px;
-    opacity: 0.7;
-}
+  
 
-.proff-icon::before {
-    left: -30.22%;
-    right: 67.58%;
+  .proff-icon {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  
+
+  .proff-icon img {
+    margin: 0px auto;
+    display: block;
+  }
+
+  .proff-icon::before {
+    left: 0;
     top: 8.76%;
     bottom: 54.64%;
     content: "";
@@ -2026,11 +2051,8 @@ footer .footer-text {
     width: 114px;
     background: url(../img/functions/icon-bg.svg) no-repeat;
     position: absolute;
-}
-.nameproff{
-    font-size:30px;
-    font-weight: bold;
-}
+  }
+    
     /* ПОСЛЕДНИЕ КЕЙСЫ */
   
   .cases {
